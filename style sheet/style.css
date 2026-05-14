@@ -11,8 +11,10 @@ html,
 body {
     width: 100%;
     min-height: 100dvh;
+    height: auto;
     font-family: sans-serif;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
+    overflow: auto;
 
 }
 
@@ -104,10 +106,10 @@ body {
 
 .profile {
     width: 385px;
-    height: 365px;
+    /* height: 365px; */
     height: auto;
     border: 1px solid tomato;
-    margin: 250px 05px 0px 20px;
+    margin: 50px 05px 0px 20px;
     /* padding-left: 0px; */
 
 }
@@ -130,7 +132,7 @@ body {
 .profile_images img {
     width: 500px;
     height: 510px;
-    float: right;
+    /* float: right; */
 }
 
 /* ===================== */
@@ -174,42 +176,134 @@ body {
     background-color: white;
 }
 
-.what_ido h1{
+.what_ido h1 {
     font-weight: bold;
-    margin-bottom:30px ;
+    margin-bottom: 30px;
 }
-.what_ido p{
+
+.what_ido p {
     text-align: center;
 }
 
 /* ================================ */
-.skill_secton{
+.skill_secton {
     width: 100%;
     display: flex;
     float: left;
-    /* border: 5px solid tomato; */
+    margin-bottom: 20px;
+    border: 5px solid tomato;
+    padding: 10px;
+    /* position: absolute; */
 
 }
-.skills{
-    width: 22%;
+
+.skills {
+    width: 23%;
     height: 400px;
     background-color: #fff;
-    /* box-shadow:2px #e40909; */
-     box-shadow: 05px 8px 24px -4px rgba(0, 0, 0, 0.12);
-     float: left;
-     margin: 0px 20px;
+    box-shadow: 5px 8px 24px -4px rgba(0, 0, 0, 0.12);
+    /* float: left; */
+    margin: 1%;
+    overflow: hidden;
 }
-.skills img{
+
+.skills img {
     /* width: 50px; */
     /* height: 50px; */
 }
-.skills h1{
+
+.skills h1 {
     margin: 40px 0px;
     /* align-items: center; */
     text-align: center;
 }
-.skills p{
+
+.skills p {
     text-align: justify;
     margin: 5px;
     padding: 20px;
+}
+
+/* ====================================== */
+.summary_wrp {
+    /* width: 100%; */
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 50px;
+    /* border: 2px solid #181818; */
+    clear: both;
+    /* display: block; */
+    /* position: relative; */
+    /* border: 2px solid green; */
+}
+
+.summary_wrp h1 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+
+
+}
+
+.qualification_wrp {
+    width: 100%;
+    display: flex;
+    gap: 6px;
+    margin-bottom: 20px;
+
+
+}
+
+.quf {
+    width: 50%;
+    border-bottom: 1px solid #616060;
+    padding: 30px;
+
+
+}
+
+.dw_btn {
+    display: block;
+    width: 10%;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 5px;
+    font-weight: 600;
+    background-color: tomato;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+/* ======================================= */
+.footer_section {
+    background-color: tomato;
+    width: 100%;
+    display: flex;
+    clear: both;
+    margin-top: 20px;
+}
+
+.contact {
+    width: 50%;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.form_section {
+    width: 50%;
+    /* align-items: center; */
+    /* margin: 20px; */
+    margin: 0 auto
+    padding: 20px;
+
+}
+
+.submit {
+    /* width: 100%; */
+    display: flex;
+    clear: both;
+    margin-top: 20px;
 }
